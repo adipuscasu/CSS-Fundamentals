@@ -4,7 +4,7 @@ Web pages built while following the CSS Fundamentals course on Scrimba <https://
 
 ## Chapter one - CSS Fundamentals
 
-### Requirements
+### Requirements ![image with the requirements] (/CSS-Fundamentals/images/requirements.jpg)
 
 - Colors
     #EF5839
