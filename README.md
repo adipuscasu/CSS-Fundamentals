@@ -4,7 +4,7 @@ Web pages built while following the CSS Fundamentals course on Scrimba <https://
 
 ## Chapter one - CSS Fundamentals
 
-### Requirements ![image with the requirements] (CSS-Fundamentals/images/requirements.jpg)
+### Requirements ![Image of Yaktocat](https://github.com/adipuscasu/The-Responsive-Web-Design-Bootcamp/blob/master/CSS-Fundamentals/images/requirements.jpg)
 
 - Colors
   - #EF5839
