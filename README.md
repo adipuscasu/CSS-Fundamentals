@@ -4,22 +4,22 @@ Web pages built while following the CSS Fundamentals course on Scrimba <https://
 
 ## Chapter one - CSS Fundamentals
 
-### Requirements ![image with the requirements] (/CSS-Fundamentals/images/requirements.jpg)
+### Requirements ![image with the requirements] (CSS-Fundamentals/images/requirements.jpg)
 
 - Colors
-        #EF5839
-        #2E354F
-        #FFF
+    1 #EF5839
+    1 #2E354F
+    1 #FFF
 - Font family: Lato
 - Font sizes:
-        h1: 36px;
-        h2: 24px;
-        body: 18px;
+    1 h1: 36px;
+    1 h2: 24px;
+    1 body: 18px;
 - Buttons
-        must have a hover and a focus state
-        must have 2 classess, a generic and a modifier
+    1 must have a hover and a focus state
+    1 must have 2 classess, a generic and a modifier
 - Links
-        must have a hover and a focus state
+    1 must have a hover and a focus state
 - Layout
-        width: 620px;
-        background must extend from one side of the browser window to the other
+    1 width: 620px;
+    1 background must extend from one side of the browser window to the other
