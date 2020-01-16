@@ -1,0 +1,70 @@
+html {
+    font-size: 16px;
+    
+}
+body {
+    margin: 0;
+    color: #707070;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.125rem;
+}
+
+/* Typography */
+
+h1 {
+    font-size: 3.375rem;
+    margin: 0;
+    color: #143774;
+}
+
+.subtitle .navigation {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+}
+
+p {
+    color: #1792D2;
+}
+
+nav ul {
+    color: #707070;
+}
+
+header {
+    background-color: #F8F8F8;
+    font-family: 'Lora', serif;
+}
+
+/* Layout */
+.site-title {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.horizontal-list {
+    min-width: 700px;
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.horizontal-list li {
+    display: inline;
+    text-transform: uppercase;
+    padding: 0 1rem;
+}
+
+/* Links */
+
+.horizontal-list li:hover {
+    text-decoration: underline;
+    font-weight: 700;
+    cursor: pointer;
+}
