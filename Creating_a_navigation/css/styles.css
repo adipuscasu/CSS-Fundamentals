@@ -26,20 +26,22 @@ p {
     color: #1792D2;
 }
 
-nav ul {
+nav ul a {
     color: #707070;
 }
 
 header {
     background-color: #F8F8F8;
     font-family: 'Lora', serif;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Layout */
 .site-title {
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    
 }
 
 .table {
@@ -49,22 +51,24 @@ header {
 }
 
 .horizontal-list {
-    min-width: 700px;
+    min-width: 600px;
     list-style: none;
     text-align: center;
     padding: 0;
 }
 
-.horizontal-list li {
-    display: inline;
-    text-transform: uppercase;
-    padding: 0 1rem;
+.horizontal-list {
+    display: flex;
+  justify-content: space-between;
+    
 }
 
 /* Links */
+.horizontal-list li a {
+    text-decoration: unset;
+}
 
-.horizontal-list li:hover {
+.horizontal-list li a:hover {
     text-decoration: underline;
     font-weight: 700;
-    cursor: pointer;
 }
