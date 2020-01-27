@@ -1,72 +1,84 @@
-html {
-    font-size: 16px;
-    
-}
+/*  Fonts
+-----
+font-family: 'Lora', serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
 body {
     margin: 0;
-    color: #707070;
-    font-family: 'Lato', sans-serif;
-    font-size: 1.125rem;
+    font-family: 'Ubuntu', sans-serif;
 }
 
-/* Typography */
+/* =================
+Typography
+================= */
 
 h1 {
-    font-size: 3.375rem;
-    margin: 0;
-    color: #143774;
-}
-
-.subtitle .navigation {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1rem;
-}
-
-p {
-    color: #1792D2;
-}
-
-nav ul a {
-    color: #707070;
-}
-
-header {
-    background-color: #F8F8F8;
     font-family: 'Lora', serif;
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
+    font-weight: 400;
+    color: #143774;
+    font-size: 2rem;
+    margin: 0;
 }
 
-/* Layout */
-.site-title {
-    text-align: center;
-    
+.subtitle {
+    font-weight: 700;
+    color: #1792d2;
+    font-size: .75rem;
+    margin: 0;
 }
 
-.table {
-    display: table;
-    margin-left: auto;
-    margin-right: auto;
+/* =================
+Layout
+================= */
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    border: 1px solid magenta;
+    margin: 0 auto;
 }
 
-.horizontal-list {
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+}
+ 
+header {
+    background: #f8f8f8;
+    padding: 2em 0;
+}
+
+/* navigation */
+
+nav ul {
     list-style: none;
+    padding: 0;
     display: flex;
     justify-content: center;
-    padding: 0;
 }
 
-.horizontal-list li {
-    margin: 0 1em;
+nav li {
+    margin-left: 2em;
 }
 
-/* Links */
-.horizontal-list li a {
-    text-decoration: unset;
-}
-
-.horizontal-list li a:hover {
-    text-decoration: underline;
+nav a {
+    text-decoration: none;
+    color: #707070;
     font-weight: 700;
+    padding: .25em 0;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #1792d2;
+}
+
+.current-page {
+    border-bottom: 1px solid #707070;
+}
+
+.current-page:hover {
+    color: #707070;
+
 }
